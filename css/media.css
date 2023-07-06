@@ -1,0 +1,111 @@
+@media (max-width: 900px) {
+    .content {
+        margin-top: 23px;
+        justify-content: center;
+        margin-bottom: 96px;
+    }
+
+    .content-item {
+        max-width: 223px;
+        max-height: 217px;
+        background: url(../assets/img/bg/bg-tab-item.png) bottom / contain no-repeat;
+    }
+
+    .content-item h2 {
+        margin-top: 0;
+        letter-spacing: 1.071px;
+        font-size: 15px;
+    }
+
+    .content-item a {
+        margin-bottom: 22px;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 52px;
+        padding-bottom: 64px;
+        background: url(../assets/img/bg/circles-tab.svg) top center / contain no-repeat,
+            url(../assets/img/bg/bg-info-tab.png) center / contain no-repeat;
+    }
+
+    .img-desc {
+        display: none;
+    }
+
+    .img-tab {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .info-img {
+        margin-bottom: 64px;
+    }
+
+    .info-text {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 678px) {
+    .content {
+        margin-top: 48px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 16px;
+        margin-bottom: 120px;
+    }
+
+    .content-item {
+        max-width: 327px;
+        background: url(../assets/img/bg/bg-mob-item.png) bottom / contain no-repeat;
+    }
+
+    .content-item img {
+        width: 42%;
+    }
+
+    .content-item a {
+        margin-bottom: 22px;
+    }
+
+    .info {
+        background: url(../assets/img/bg/circles-mob.svg) center top no-repeat,
+            url(../assets/img/bg/bg-info-mob.png) center no-repeat;
+            padding: 0;
+    }
+
+    .info-img {
+        padding-top: 55px;
+    }
+
+    .img-tab {
+        display: none;
+    }
+
+    .img-mob {
+        display: block;
+    }
+
+    .info-text {
+        width: 280px;
+        min-height: 251px;
+        margin-bottom: 55px;
+    }
+
+    .info-text h3 {
+        font-size: 36px;
+        line-height: 40px;
+        width: 259px;
+        margin: 0 auto 24px;
+    }
+
+    .info-text p {
+        margin-bottom: 24px;
+    }
+}
